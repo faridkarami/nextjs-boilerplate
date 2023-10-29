@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+**/node_modules/
+.pnp.*
+.pnp
+
+# local env files
+.env
+**/.env
+.env.local
+.env.*.local
+
+# editors
+.vscode/
+
+# by default all git files
+.git/
+.gitignore
+
+# docker related
+.dockerignore
+Dockerfile
+
+README.md
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

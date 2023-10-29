@@ -1,0 +1,17 @@
+services: 
+  app:
+    container_name: client
+    env_file: .env
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - NODE_ENV=production
+    restart: always
+    ports:
+      - '${PORT}:3000'
+    networks:
+      - fk8-network
+
+networks:
+  fk8-network: {}

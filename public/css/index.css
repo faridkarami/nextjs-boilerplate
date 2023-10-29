@@ -1,0 +1,24 @@
+@import "./font-typography.css";
+
+/* :root {
+    font-size: 12px;
+} */
+
+html, body {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+#__next {
+    min-height: 100%;
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
